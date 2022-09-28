@@ -38,7 +38,9 @@ textarea {
    font-size: 25px;
    margin-top: 10px;
    margin-bottom: 20px;
+   resize: none;
 }
+
 .buttons {
    display: flex;
    width: 100%;
@@ -63,3 +65,5 @@ button:hover {
 .abort {
    background: rgb(0, 0, 0);
 }
+
+ 
