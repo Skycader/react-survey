@@ -10,7 +10,7 @@ class Form extends React.Component {
 
   render() {
     let placeholder = `Type your ${this.props.name.toLowerCase()}`
-    let pattern = (this.props.type=="tel") ? "[0-9]{3}-[0-9]{3}-[0-9]{4}" : ""
+    let pattern = (this.props.type==="tel") ? "[0-9]{3}-[0-9]{3}-[0-9]{4}" : ""
     return (
       <>
         <label>{this.props.name}</label>
