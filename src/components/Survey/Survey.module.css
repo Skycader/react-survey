@@ -1,0 +1,8 @@
+.form {
+   box-shadow: 15px 5px 35px black;
+   background: rgb(255, 255, 255);
+   margin: 50px;
+   padding: 50px;
+   border-radius: 25px;
+   width: 50%;
+}
