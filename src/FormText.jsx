@@ -12,7 +12,7 @@ class FormText extends React.Component {
     return (
       <>
         <label>{this.props.name}</label>
-        <textarea ref={this.inputRef} rows="7" placeholder={placeholder}></textarea>
+        <textarea required ref={this.inputRef} rows="7" placeholder={placeholder}></textarea>
         <br/>
       </>
     );

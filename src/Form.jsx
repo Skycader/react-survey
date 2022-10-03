@@ -6,15 +6,14 @@ class Form extends React.Component {
     super(props);
     this.inputRef = React.createRef();
   }
-  
 
   render() {
     let placeholder = `Type your ${this.props.name.toLowerCase()}`
-    let pattern = (this.props.type==="tel") ? "[0-9]{3}-[0-9]{3}-[0-9]{4}" : ""
+    let pattern = (this.props.type==="tel") ? "[0-9]{1}-[0-9]{4}-[0-9]{2}-[0-9]{2}" : "*" 
     return (
       <>
         <label>{this.props.name}</label>
-        <input ref={this.inputRef}type={this.props.type} pattern={pattern} placeholder={placeholder}></input>
+        <input required ref={this.inputRef} type={this.props.type} pattern={pattern} placeholder={placeholder}></input>
         <br/>
       </>
     );

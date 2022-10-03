@@ -32,7 +32,7 @@ class App extends React.Component {
   };
 
   send = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     let user = {
       name: this.nameRef.current.inputRef.current.value,
       surname: this.surnameRef.current.inputRef.current.value,
@@ -43,8 +43,8 @@ class App extends React.Component {
       stack: this.stackRef.current.inputRef.current.value,
       lastProject: this.lastProjectRef.current.inputRef.current.value,
     };
-
-    alert(JSON.stringify(user));
+    console.log(e)
+    alert(JSON.stringify(user,null,2));
   };
   render() {
     return (
@@ -56,7 +56,7 @@ class App extends React.Component {
           <Form ref={this.nameRef} name="Name"></Form>
           <Form ref={this.surnameRef} name="Surname"></Form>
           <Form ref={this.birthdayRef} type="date" name="Birthday"></Form>
-          <Form ref={this.telephoneRef} type="tel" name="Telephone"></Form>
+          <Form ref={this.telephoneRef} type="tel" name="Telephone (x-xxxx-xx-xx)"></Form>
           <Form ref={this.websiteRef} type="url" name="Website url"></Form>
           <FormText
             ref={this.aboutYourselfRef}
