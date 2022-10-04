@@ -6,14 +6,14 @@ import { useReducer } from "react";
 
 const Form = (props) => {
   let survey = {
-    name: "",
-    surname: "",
-    birthday: "",
-    telephone: "",
-    website: "",
-    aboutYourself: "",
-    stack: "",
-    lastProject: "",
+    "Name": "",
+    "Surname": "",
+    "Birthday": "",
+    "Telephone": "x-xxxx-xx-xx",
+    "Website": "https://",
+    "About yourself": "",
+    "Stack": "",
+    "Last project": "",
     formSubmitted: false,
   };
 
@@ -47,13 +47,13 @@ const Form = (props) => {
         type="tel"
         name="Telephone (x-xxxx-xx-xx)"
         setValue={dispatch}
-        value={state.telephone}
+        value={state["Telephone"]}
       ></Input>
       <Input
         type="url"
-        name="Website url"
+        name="Website url (https only)"
         setValue={dispatch}
-        value={state.website}
+        value={state["Website"]}
       ></Input>
       <Textarea
         setValue={dispatch}

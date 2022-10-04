@@ -4,42 +4,42 @@ export default function (state, action) {
     case "name":
       return {
         ...state,
-        name: action.payload,
+        "Name": action.payload,
       };
     case "surname":
       return {
         ...state,
-        surname: action.payload,
+        "Surname": action.payload,
       };
     case "birthday":
       return {
         ...state,
-        birthday: action.payload,
+        "Birthday": action.payload,
       };
     case "telephone (x-xxxx-xx-xx)":
       return {
         ...state,
-        telephone: action.payload,
+        "Telephone": action.payload,
       };
-    case "website url":
+    case "website url (https only)":
       return {
         ...state,
-        website: action.payload,
+        "Website": action.payload,
       };
     case "about yourself":
       return {
         ...state,
-        aboutYourself: action.payload,
+        "About yourself": action.payload,
       };
     case "about your stack":
       return {
         ...state,
-        stack: action.payload,
+        "Stack": action.payload,
       };
     case "about your last project":
       return {
         ...state,
-        lastProject: action.payload,
+        "Last project": action.payload,
       };
     case "abort":
       console.log(state)

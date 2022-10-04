@@ -8,8 +8,8 @@ const App = () => {
   const [survey,setSurvey] = useState({})
   return (
     <Root>
-      {(showForm)?(<Form setSurvey={setSurvey} setShowForm={setShowForm}></Form>):(<Survey survey={survey}></Survey>)}
-      {/* {showForm&&<Survey survey={survey}></Survey>} */}
+      {showForm&&(<Form setSurvey={setSurvey} setShowForm={setShowForm}></Form>)}
+      {!showForm&&<Survey survey={survey}></Survey>}
     </Root>
   );
 };
