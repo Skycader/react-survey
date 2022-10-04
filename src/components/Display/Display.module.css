@@ -1,0 +1,18 @@
+.label {
+   height: 40px;
+   font-size: 25px; 
+   margin-right: 10px;
+   font-weight: bold;
+}
+
+.info {
+   width: 100%;
+   border: 2px solid black;
+   min-height: 54px;
+   font-size: 25px; 
+   margin-right: 10px;
+   font-weight: bold;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
