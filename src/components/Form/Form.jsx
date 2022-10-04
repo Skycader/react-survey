@@ -57,18 +57,18 @@ const Form = (props) => {
       ></Input>
       <Textarea
         setValue={dispatch}
-        value={state.aboutYourself}
+        value={state["About yourself"]}
         name="About yourself"
       ></Textarea>
       <Textarea
         setValue={dispatch}
-        value={state.stack}
+        value={state["Stack"]}
         name="About your stack"
       ></Textarea>
       <Textarea
         name="About your last project"
         setValue={dispatch}
-        value={state.lastProject}
+        value={state["Last project"]}
       ></Textarea>
       <div className={Style.buttons}>
         <button

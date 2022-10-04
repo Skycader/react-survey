@@ -42,8 +42,6 @@ export default function (state, action) {
         "Last project": action.payload,
       };
     case "abort":
-      console.log(state)
-      console.log({...state})
       for (let key of Object.keys(state)) {
         state[key] = "";
       }

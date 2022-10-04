@@ -5,6 +5,7 @@
    padding: 50px;
    border-radius: 25px;
    width: 50%;
+   min-width: 390px;
 }
 
 .buttons {
