@@ -2,9 +2,12 @@ import Input from "../input/Input";
 import Textarea from "../Textarea/Textarea";
 import Style from "./Form.module.css";
 import reducer from "../../hooks/reducer";
-import { useReducer } from "react";
+import { Link, useNavigate } from 'react-router-dom'
+import { useReducer, useCallback } from "react";
 
 const Form = (props) => {
+  const navigate = useNavigate();
+
   let survey = {
     "Name": "",
     "Surname": "",
@@ -21,13 +24,14 @@ const Form = (props) => {
 
   const submit = (e) => {
     props.setSurvey(state)
-    props.setShowForm(false)
     e.preventDefault();
+    navigate('/survey', {replace: true})
   };
 
   const abort = (e) => {
     e.preventDefault();
     dispatch({ type: "abort" });
+    navigate('/', {replace: true})
   };
 
   return (

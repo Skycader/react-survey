@@ -1,14 +1,24 @@
 import React from "react";
 import Style from "./Input.module.css";
 
-import mask from '../../Functions/Mask'
+import mask from "../../Functions/Mask";
 const Input = (props) => {
-
-
   let placeholder = `Type your ${props.name.toLowerCase()}`;
-  let pattern =
-    props.type === "tel" ? "[0-9]{1}-[0-9]{4}-[0-9]{2}-[0-9]{2}" : "*";
-  pattern = props.type === "url" ? "(https)?://(\\S+).(\\S+)" : "*";
+
+  
+  const definePattern = (type) => {
+    switch (type) {
+      case "tel":
+        return "[0-9]{1}-[0-9]{4}-[0-9]{2}-[0-9]{2}";
+      case "url":
+        return "(https)?://(\\S+).(\\S+)";
+      default:
+        return "*";
+    }
+  };
+
+  let pattern = definePattern(props.type)
+
   return (
     <>
       <label className={Style.label}>{props.name}</label>

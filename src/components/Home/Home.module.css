@@ -1,0 +1,22 @@
+.form {
+   box-shadow: 15px 5px 35px black;
+   background: rgb(255, 255, 255);
+   margin: 50px;
+   padding: 50px;
+   border-radius: 25px;
+   width: 50%;
+   min-width: 390px;
+}
+.button {
+   width: calc(50% - 10px);
+   text-decoration: none;
+   height: 50px;
+   border: none;
+   font-size: 25px;
+   color: white;
+   background: rgb(0, 0, 0);
+}
+
+.button:hover {
+   cursor: pointer;
+}
