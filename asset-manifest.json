@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-survey/static/css/main.9e41cb3f.css",
-    "main.js": "/react-survey/static/js/main.87d54d72.js",
+    "main.css": "/react-survey/static/css/main.49f6aeab.css",
+    "main.js": "/react-survey/static/js/main.6e439468.js",
     "static/js/787.b755f208.chunk.js": "/react-survey/static/js/787.b755f208.chunk.js",
     "static/media/background.webp": "/react-survey/static/media/background.87b43c1eb3291a655089.webp",
     "index.html": "/react-survey/index.html",
-    "main.9e41cb3f.css.map": "/react-survey/static/css/main.9e41cb3f.css.map",
-    "main.87d54d72.js.map": "/react-survey/static/js/main.87d54d72.js.map",
+    "main.49f6aeab.css.map": "/react-survey/static/css/main.49f6aeab.css.map",
+    "main.6e439468.js.map": "/react-survey/static/js/main.6e439468.js.map",
     "787.b755f208.chunk.js.map": "/react-survey/static/js/787.b755f208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e41cb3f.css",
-    "static/js/main.87d54d72.js"
+    "static/css/main.49f6aeab.css",
+    "static/js/main.6e439468.js"
   ]
 }
