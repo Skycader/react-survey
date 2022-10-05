@@ -14,7 +14,6 @@ const App = () => {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/form" element={<Form setSurvey={setSurvey}></Form>}/>
           <Route path="/survey" element={<Survey survey={survey}></Survey>}/>
-          <Route path="*" element={<h1>Not found</h1>}/>
         </Routes>
         </BrowserRouter>
     </Root>
