@@ -1,0 +1,35 @@
+.form {
+   box-shadow: 15px 5px 35px black;
+   background: rgb(255, 255, 255);
+   margin: 50px;
+   padding: 50px;
+   border-radius: 25px;
+   width: 50%;
+   min-width: 390px;
+}
+
+.buttons {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.button {
+   width: calc(50% - 10px);
+   height: 50px;
+   border: none;
+   font-size: 25px;
+   color: white;
+}
+
+.button:hover {
+   cursor: pointer;
+}
+
+.send {
+   background: rgb(0, 0, 0);
+}
+
+.abort {
+   background: rgb(0, 0, 0);
+}
