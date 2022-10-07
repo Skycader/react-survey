@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-survey/static/css/main.3f6071dd.css",
-    "main.js": "/react-survey/static/js/main.c5fd73db.js",
+    "main.js": "/react-survey/static/js/main.bbee02f6.js",
     "static/js/787.b755f208.chunk.js": "/react-survey/static/js/787.b755f208.chunk.js",
     "static/media/background.webp": "/react-survey/static/media/background.87b43c1eb3291a655089.webp",
     "index.html": "/react-survey/index.html",
     "main.3f6071dd.css.map": "/react-survey/static/css/main.3f6071dd.css.map",
-    "main.c5fd73db.js.map": "/react-survey/static/js/main.c5fd73db.js.map",
+    "main.bbee02f6.js.map": "/react-survey/static/js/main.bbee02f6.js.map",
     "787.b755f208.chunk.js.map": "/react-survey/static/js/787.b755f208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6071dd.css",
-    "static/js/main.c5fd73db.js"
+    "static/js/main.bbee02f6.js"
   ]
 }
