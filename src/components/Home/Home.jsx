@@ -8,7 +8,7 @@ const Home = (props) => {
         <h1>Survey for Front-End developer</h1>
         
           <Link className={Style.button} to="/form">
-            Open
+            Fill out
           </Link>
       
       </center>

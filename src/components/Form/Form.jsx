@@ -25,7 +25,7 @@ const Form = (props) => {
   const submit = (e) => {
     props.setSurvey(state)
     e.preventDefault();
-    navigate('/survey', {replace: true})
+    navigate('/survey')
   };
 
   const abort = (e) => {
@@ -82,6 +82,7 @@ const Form = (props) => {
           Abort
         </button>
         <button className={[Style.button, Style.abort].join(" ")}>Send</button>
+        {/* <Link to="/survey">To survey</Link> */}
       </div>
     </form>
   );
